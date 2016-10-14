@@ -1,0 +1,2 @@
+# production/group_vars/server.yml
+env_name: production

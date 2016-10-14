@@ -1,0 +1,9 @@
+# group-vars.yml
+- hosts: all
+  sudo: no
+  gather_facts: False
+
+  tasks:
+     - name: dir created from var
+       file: path={{env_name}} state=directory
+     - debug: msg="reading from {{env_name}}"

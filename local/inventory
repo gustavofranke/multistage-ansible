@@ -1,0 +1,5 @@
+# local/inventory
+[variables]
+#localhost   ansible_connection=local
+ms1 ansible_host=127.0.0.1 ansible_port=2203 ansible_private_key_file=.vagrant/machines/ms1/virtualbox/private_key
+ms2 ansible_host=127.0.0.1 ansible_port=2204 ansible_private_key_file=.vagrant/machines/ms2/virtualbox/private_key
